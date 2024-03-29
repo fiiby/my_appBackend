@@ -18,6 +18,6 @@ module.exports = async (req, res, next) => {
     return res.status(401).send({
       message: "Auth failed",
       success: false,
-   });
-  }
+});
+}
 };
